@@ -9,4 +9,6 @@ COPY requirements.txt /project/requirements.txt
 
 WORKDIR /project/
 
+ENV PYTHONPATH /project
+
 RUN pip install -r requirements.txt
