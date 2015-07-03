@@ -4,9 +4,9 @@ import scrapy
 
 class XroxySpider(scrapy.Spider):
     name = "xroxy"
-    allowed_domains = ["xroxy.com"]
+    allowed_domains = ["xrory.com"]
     start_urls = (
-        'http://www.xroxy.com/',
+        'http://www.xrory.com/',
     )
 
     def parse(self, response):
