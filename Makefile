@@ -6,3 +6,6 @@ build:
 
 shell:
 	docker run -ti --rm -v `pwd`:/project $(IMAGE_NAME) bash
+
+run: 
+	docker run -ti --rm -v `pwd`:/project $(IMAGE_NAME) scrapy crawl xroxy

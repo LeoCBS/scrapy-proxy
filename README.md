@@ -14,3 +14,7 @@ Crawler for get proxies
 run interactive docker with  scrapy 1.0.1
 
     make shell
+
+## Start xroxy crawler
+
+    make run
