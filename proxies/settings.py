@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for scrapyproxy project
+# Scrapy settings for proxies project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'scrapyproxy'
+BOT_NAME = 'proxies'
 
-SPIDER_MODULES = ['scrapyproxy.spiders']
-NEWSPIDER_MODULE = 'scrapyproxy.spiders'
+SPIDER_MODULES = ['proxies.spiders']
+NEWSPIDER_MODULE = 'proxies.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'scrapyproxy (+http://www.yourdomain.com)'
+#USER_AGENT = 'proxies (+http://www.yourdomain.com)'
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS=32
@@ -44,13 +44,13 @@ NEWSPIDER_MODULE = 'scrapyproxy.spiders'
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'scrapyproxy.middlewares.MyCustomSpiderMiddleware': 543,
+#    'proxies.middlewares.MyCustomSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'scrapyproxy.middlewares.MyCustomDownloaderMiddleware': 543,
+#    'proxies.middlewares.MyCustomDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -62,7 +62,7 @@ NEWSPIDER_MODULE = 'scrapyproxy.spiders'
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'scrapyproxy.pipelines.SomePipeline': 300,
+#    'proxies.pipelines.SomePipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
